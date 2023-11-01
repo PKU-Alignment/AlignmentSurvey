@@ -9,13 +9,13 @@
 >
 > If you find our survey useful for your research, please cite our survey:
 ```
-@misc{alignmentsurvey,
-    title={AI Alignment: A Comprehensive Survey}, 
-    author={placeholder},
-    year={2023},
-    eprint={placeholder},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@misc{ji2023ai,
+      title={AI Alignment: A Comprehensive Survey}, 
+      author={Jiaming Ji and Tianyi Qiu and Boyuan Chen and Borong Zhang and Hantao Lou and Kaile Wang and Yawen Duan and Zhonghao He and Jiayi Zhou and Zhaowei Zhang and Fanzhi Zeng and Kwan Yee Ng and Juntao Dai and Xuehai Pan and Aidan O'Gara and Yingshan Lei and Hua Xu and Brian Tse and Jie Fu and Stephen McAleer and Yaodong Yang and Yizhou Wang and Song-Chun Zhu and Yike Guo and Wen Gao},
+      year={2023},
+      eprint={2310.19852},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 ```
 
