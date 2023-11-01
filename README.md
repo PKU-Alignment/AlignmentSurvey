@@ -20,6 +20,10 @@
 ```
 
 - [AlignmentSurvey](#alignmentsurvey)
+  - [Main Content](#main-content)
+    - [Core Concepts](#core-concepts)
+    - [Failure Modes](#failure-modes)
+    - [Assurance Existing Works](#assurance-existing-works)
   - [Recommended Paper List](#recommended-paper-list)
     - [Introduction](#introduction)
       - [The Alignment Problem](#the-alignment-problem)
@@ -52,6 +56,18 @@
     - [Chinese](#chinese)
   - [Codes Resources](#codes-resources)
     - [Support RLHF](#support-rlhf)
+
+## Main Content
+
+### Core Concepts
+![RICE](assets/RICE.png)
+![Alignment Circle](assets/Alignment_Circle.png)
+
+### Failure Modes
+![Failure](assets/Failure_Modes.png)
+
+### Assurance Existing Works
+![Assurance Chart](assets/Ch4_Assurance_Chart.png)
 
 ## Recommended Paper List
 
