@@ -22,7 +22,10 @@
 - [AlignmentSurvey](#alignmentsurvey)
   - [Main Content](#main-content)
     - [Core Concepts](#core-concepts)
+    - [Learning from Feedback Framework](#learning-from-feedback-framework)
+    - [Learning under Distribution Shift Framework](#learning-under-distribution-shift-framework)
     - [Assurance Existing Works](#assurance-existing-works)
+    - [Governance Framework](#governance-framework)
   - [Recommended Paper List](#recommended-paper-list)
     - [Introduction](#introduction)
       - [The Alignment Problem](#the-alignment-problem)
@@ -75,9 +78,33 @@ alignment. Notably, although Backward Alignment has the end goal of ensuring the
 Relationships between alignment research directions covered in the survey and the RICE principles, featuring the individual objectives each research direction aims to achieve. Filled circles stand for primary objectives, and unfilled circles stand for secondary objectives.
 ![Relationship](assets/Ch1_Intro_Relationships.png)
 
+### Learning from Feedback Framework
+Overview of the learning from the feedback process. Three core components are depicted: AI System—
+the primary learning entity and algorithmic target; Feedback—information from an advisor set for system adjustments;
+and Proxy — representative models for feedback that’s complex to learn directly. Two learning pathways
+emerge: direct feedback-based learning and proxy-mediated learning (e.g., Reinforcement Learning from Human
+Feedback (RLHF)).We adopt a human-centric perspective, viewing AI systems as black boxes and categorizing the
+forms of feedback presented to AI systems into three types: Reward, Demonstration, and Comparison. Grounded
+in fundamental concepts such as Category of Preference and Granularity of Preference, we introduce the Reward
+Model, a specific instantiation of a Proxy. In the context of AI Systems, we discuss four distinct domains: Reinforcement
+Learning (RL), Imitation Learning (IL), Inverse Reinforcement Learning (IRL), and Preference-based
+Reinforcement Learning (PbRL) as a background. Scalable Oversight, a research theme that seeks to ensure AI
+systems, even those surpassing human expertise, remain aligned with human intent, is explored through the introduction
+of four promising directions: Iterated Distillation and Amplification (IDA), Recursive Reward Modeling
+(RRM), Debate, and Cooperative Inverse Reinforcement Learning (CIRL). Additionally, building upon RLHF, we
+propose RLxF, encompassing Reinforcement Learning from AI Feedback (RLAIF) and Reinforcement Learning
+from Human and AI Feedback (RLHAIF), as an extension of RLHF and a fundamental framework for Scalable
+Oversight.
+![Feedback Framework](assets/Ch2_Learning.png)
+
+### Learning under Distribution Shift Framework
+![OOD Framework](assets/Ch3_OOD.png)
 
 ### Assurance Existing Works
 ![Assurance Chart](assets/Ch4_Assurance_Chart.png)
+
+### Governance Framework
+![Governance Framework](assets/Ch5_Governance.png)
 
 ## Recommended Paper List
 
