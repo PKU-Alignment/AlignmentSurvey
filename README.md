@@ -60,9 +60,22 @@
 ## Main Content
 
 ### Core Concepts
+**The RICE principles** define four key characteristics that an aligned system should possess, in no particular order: 
+(1) Robustness states that the system’s stability needs to be guaranteed across various environments;
+(2) Interpretability states that the operation and decision-making process of the system should be clear and understandable;
+(3) Controllability states that the system should be under the guidance and control of humans; 
+(4) Ethicality states that the system should adhere to society’s norms and values. 
+These four principles guide the alignment of an AI system with human intentions and values. They are not end goals in themselves but intermediate
+objectives in service of alignment.
 ![RICE](assets/RICE.png)
+**The Alignment Cycle**
+(1) Forward Alignment (alignment training) produces trained systems based on alignment requirements; 
+(2) Backward Alignment (alignment refinement) ensures the practical alignment of trained systems and revises alignment requirements; 
+(3) The cycle is repeated until reaching a sufficient level of
+alignment. Notably, although Backward Alignment has the end goal of ensuring the practical alignment of trained systems, it is carried out all throughout the system’s lifecycle in service of this goal, including before, during, after training, and also after deployment.
 ![Alignment Circle](assets/Alignment_Circle.png)
-
+Relationships between alignment research directions covered in the survey and the RICE principles, featuring the individual objectives each research direction aims to achieve. Filled circles stand for primary objectives, and unfilled circles stand for secondary objectives.
+![Relationship](assets/Ch1_Intro_Relationships.png)
 ### Failure Modes
 ![Failure](assets/Failure_Modes.png)
 
