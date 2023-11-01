@@ -22,7 +22,6 @@
 - [AlignmentSurvey](#alignmentsurvey)
   - [Main Content](#main-content)
     - [Core Concepts](#core-concepts)
-    - [Failure Modes](#failure-modes)
     - [Assurance Existing Works](#assurance-existing-works)
   - [Recommended Paper List](#recommended-paper-list)
     - [Introduction](#introduction)
@@ -76,8 +75,7 @@ alignment. Notably, although Backward Alignment has the end goal of ensuring the
 ![Alignment Circle](assets/Alignment_Circle.png)
 Relationships between alignment research directions covered in the survey and the RICE principles, featuring the individual objectives each research direction aims to achieve. Filled circles stand for primary objectives, and unfilled circles stand for secondary objectives.
 ![Relationship](assets/Ch1_Intro_Relationships.png)
-### Failure Modes
-![Failure](assets/Failure_Modes.png)
+
 
 ### Assurance Existing Works
 ![Assurance Chart](assets/Ch4_Assurance_Chart.png)
