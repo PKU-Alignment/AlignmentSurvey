@@ -1,6 +1,6 @@
 # AlignmentSurvey
 
-## 👋 This repository is not the main focus. Please refer to our [website](www.alignmentsurvey.com) and [arxiv paper](https://arxiv.org/pdf/2310.19852.pdf) for more information!
+## 👋 This repository is not the main focus. Please refer to our [website](https://alignmentsurvey.com/) and [arxiv paper](https://arxiv.org/pdf/2310.19852.pdf) for more information!
 
 For an in-depth analysis of **AI Alignment**, we extend an invitation to peruse our expansive and meticulous survey, which can be accessed [here](https://arxiv.org/pdf/2310.19852.pdf). 
 
